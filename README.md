@@ -1,6 +1,6 @@
 # OrderFlow
 
-OrderFlow is that simulates a warehouse filling orders for CS4348 Operating System Project
+OrderFlow is a C++17 program that simulates a warehouse filling orders, built for the CS4348 Operating Systems project.
 
 One thread makes up customer orders and puts them in a queue. A few worker threads take orders from the queue and try to fill them from a shared stock list. An order either ships in full or gets backordered. It never ships half-filled, and the stock never goes below zero, even when many threads are working at once.
 
